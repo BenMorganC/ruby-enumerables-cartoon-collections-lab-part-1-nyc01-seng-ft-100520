@@ -9,9 +9,9 @@ end
 
 def list_dwarves(array)
   count = 0
-  character[count] = index
+  
   array.each_with_index do |character, index| 
-    
+  character[count] = index  
     count += 1 
   end
     puts "#{index + 1} #{character}"
