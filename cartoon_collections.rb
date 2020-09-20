@@ -8,8 +8,9 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  count = 0
   array.each_with_index do |character, index| 
-    character[array] = index
+    character[count] = index
   end
     puts "#{index + 1} #{character}"
   
